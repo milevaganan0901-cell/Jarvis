@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# JARVIS private files
+credentials.json
+token.json
+.venv-voice/
+__pycache__/
+*.pyc
+models/
+*.log
+kokoro-env/
+
+# Local backups and test files
+jarvis_assistant_backup*.py
+voice_server_backup.py
+wake_test.py
+src/voice-test.html
+__pycache__/
+*.pyc
+node_modules/
